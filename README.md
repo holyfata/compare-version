@@ -1,6 +1,6 @@
 # @holyfata/compare-version
 
-[JNPM](./jnpm/README.md)
+[How to use in JD.COM](./jnpm/README.md)
 
 <!-- automd:badges github color=yellow -->
 
