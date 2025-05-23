@@ -11,6 +11,9 @@ cp $PROJECT_ROOT/LICENSE $PROJECT_ROOT/jnpm/LICENSE
 # 把README.md中的@holyfata/compare-version换成@dj-lib/compare-version
 sed -i '' 's/@holyfata\/compare-version/@dj-lib\/compare-version/g' $PROJECT_ROOT/jnpm/README.md
 
+# 把README.md中的https://contrib.rocks/image?repo=holyfata/compare-version换成https://ddimg11.360buyimg.com/ee/jfs/t1/233544/3/37330/34066/681366d1Fbcc8c675/17d133072e7c4018.jpg
+sed -i '' 's/https:\/\/contrib.rocks\/image?repo=holyfata\/compare-version/https:\/\/ddimg11.360buyimg.com\/ee\/jfs\/t1\/233544\/3\/37330\/34066\/681366d1Fbcc8c675\/17d133072e7c4018.jpg/g' $PROJECT_ROOT/jnpm/README.md
+
 # 复制dist目录到jnpm目录
 rm -rf $PROJECT_ROOT/jnpm/dist
 cp -r $PROJECT_ROOT/dist $PROJECT_ROOT/jnpm/dist

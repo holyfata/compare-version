@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.3.1
+
+[compare changes](https://github.com/holyfata/compare-version/compare/v1.3.0...v1.3.1)
+
+### 🏡 Chore
+
+- Push after release ([e1dc4bf](https://github.com/holyfata/compare-version/commit/e1dc4bf))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v1.3.0
 
 [compare changes](https://github.com/holyfata/compare-version/compare/v1.2.1...v1.3.0)

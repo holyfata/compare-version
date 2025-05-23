@@ -292,7 +292,7 @@ Published under the [MIT](https://github.com/holyfata/compare-version/blob/main/
 Made by [community](https://github.com/holyfata/compare-version/graphs/contributors) 💛
 <br><br>
 <a href="https://github.com/holyfata/compare-version/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=holyfata/compare-version" />
+<img src="https://ddimg11.360buyimg.com/ee/jfs/t1/233544/3/37330/34066/681366d1Fbcc8c675/17d133072e7c4018.jpg" />
 </a>
 
 <!-- /automd -->
