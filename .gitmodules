@@ -1,0 +1,7 @@
+[submodule "semver"]
+	path = semver
+	url = https://github.com/semver/semver.git
+
+[submodule "compare-versions"]
+	path = compare-versions
+	url = https://github.com/omichelsen/compare-versions.git
