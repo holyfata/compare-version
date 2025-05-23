@@ -1,9 +1,9 @@
-# @holyfata/compare-version
+# @dj-lib/compare-version
 
 <!-- automd:badges github color=yellow -->
 
-[![npm version](https://img.shields.io/npm/v/@holyfata/compare-version?color=yellow)](https://npmjs.com/package/@holyfata/compare-version)
-[![npm downloads](https://img.shields.io/npm/dm/@holyfata/compare-version?color=yellow)](https://npm.chart.dev/@holyfata/compare-version)
+[![npm version](https://img.shields.io/npm/v/@dj-lib/compare-version?color=yellow)](https://npmjs.com/package/@dj-lib/compare-version)
+[![npm downloads](https://img.shields.io/npm/dm/@dj-lib/compare-version?color=yellow)](https://npm.chart.dev/@dj-lib/compare-version)
 
 <!-- /automd -->
 
@@ -17,22 +17,22 @@ Install the package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install -D @holyfata/compare-version
+npx nypm install -D @dj-lib/compare-version
 
 # npm
-npm install -D @holyfata/compare-version
+npm install -D @dj-lib/compare-version
 
 # yarn
-yarn add -D @holyfata/compare-version
+yarn add -D @dj-lib/compare-version
 
 # pnpm
-pnpm install -D @holyfata/compare-version
+pnpm install -D @dj-lib/compare-version
 
 # bun
-bun install -D @holyfata/compare-version
+bun install -D @dj-lib/compare-version
 
 # deno
-deno install --dev @holyfata/compare-version
+deno install --dev @dj-lib/compare-version
 ```
 
 <!-- /automd -->
@@ -47,7 +47,7 @@ Import:
 import {
   VersionComparer,
   VersionComparisonResult,
-} from "@holyfata/compare-version";
+} from "@dj-lib/compare-version";
 ```
 
 <!-- /automd -->
