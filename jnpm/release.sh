@@ -8,6 +8,9 @@ cp $PROJECT_ROOT/README.md $PROJECT_ROOT/jnpm/README.md
 cp $PROJECT_ROOT/CHANGELOG.md $PROJECT_ROOT/jnpm/CHANGELOG.md
 cp $PROJECT_ROOT/LICENSE $PROJECT_ROOT/jnpm/LICENSE
 
+# 把README.md中的@holyfata/compare-version换成@dj-lib/compare-version
+sed -i '' 's/@holyfata\/compare-version/@dj-lib\/compare-version/g' $PROJECT_ROOT/jnpm/README.md
+
 # 复制dist目录到jnpm目录
 rm -rf $PROJECT_ROOT/jnpm/dist
 cp -r $PROJECT_ROOT/dist $PROJECT_ROOT/jnpm/dist

@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.3.0
+
+[compare changes](https://github.com/holyfata/compare-version/compare/v1.2.1...v1.3.0)
+
+### 🚀 Enhancements
+
+- Set submodule ([906d665](https://github.com/holyfata/compare-version/commit/906d665))
+- Set submodule ([96e7f67](https://github.com/holyfata/compare-version/commit/96e7f67))
+
+### 🏡 Chore
+
+- Push after release ([40c0eb8](https://github.com/holyfata/compare-version/commit/40c0eb8))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v1.2.1
 
 [compare changes](https://github.com/holyfata/compare-version/compare/v1.2.0...v1.2.1)
