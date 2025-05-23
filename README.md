@@ -1,5 +1,7 @@
 # @holyfata/compare-version
 
+[JNPM](./jnpm/README.md)
+
 <!-- automd:badges github color=yellow -->
 
 [![npm version](https://img.shields.io/npm/v/@holyfata/compare-version?color=yellow)](https://npmjs.com/package/@holyfata/compare-version)
