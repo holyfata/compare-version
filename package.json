@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "A version comparison tool based on semver specification",
   "repository": "https://github.com/holyfata/compare-version",
@@ -32,9 +32,10 @@
     "lint": "eslint . && prettier -c .",
     "lint:fix": "automd && eslint . --fix && prettier -w .",
     "prepack": "bun run build",
-    "release:jnpm": "cd jnpm && npm run release",
-    "release:npm": "bun test && changelogen --release && bun publish && git push --follow-tags",
-    "release": "bun run release:npm && bun run release:jnpm",
+    "release:jnpm": "nrm use jd && cd jnpm && npm run release",
+    "release:npm": "nrm use npm && bun test && changelogen --release && bun publish && git push --follow-tags",
+    "release": "bun run release:npm && bun run release:jnpm && bun run push:jd",
+    "push:jd": "zsh ./scripts/push-jd.sh",
     "test": "bun test && bun run test:types",
     "test:types": "tsc --noEmit --skipLibCheck",
     "prepare": "husky"

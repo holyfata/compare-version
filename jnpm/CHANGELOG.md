@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/holyfata/compare-version/compare/v1.1.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Set the jnpm ([fcb9230](https://github.com/holyfata/compare-version/commit/fcb9230))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/holyfata/compare-version/compare/v1.1.0...v1.1.1)
