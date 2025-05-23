@@ -1,0 +1,33 @@
+{
+  "name": "@dj-lib/compare-version",
+  "private": false,
+  "author": "heyongqi10 <heyongqi10@jd.com>",
+  "keywords": [
+    "compare-version",
+    "semver",
+    "version-comparison"
+  ],
+  "version": "1.1.1",
+  "type": "module",
+  "description": "A version comparison tool based on semver specification",
+  "repository": {
+    "type": "git",
+    "url": "http://xingyun.jd.com/codingRoot/heyongqi10/compare-version/"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "release": "zsh ./release.sh"
+  }
+}

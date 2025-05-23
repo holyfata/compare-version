@@ -1,2 +1,4 @@
 compare-versions
 semver
+dist
+jnpm/dist

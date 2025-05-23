@@ -5,6 +5,8 @@ export default unjs({
     // ignore paths
     "compare-versions",
     "semver",
+    "dist",
+    "jnpm/dist",
   ],
   rules: {
     // rule overrides
