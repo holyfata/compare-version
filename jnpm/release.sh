@@ -24,4 +24,5 @@ jq --arg version "$ROOT_VERSION" '.version = $version' $PROJECT_ROOT/jnpm/packag
 mv $PROJECT_ROOT/jnpm/package.json.tmp $PROJECT_ROOT/jnpm/package.json
 
 # 发包
+nrm use jd
 npm publish
