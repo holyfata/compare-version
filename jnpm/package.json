@@ -7,8 +7,12 @@
     "semver",
     "version-comparison"
   ],
-  "version": "1.3.2",
+  "version": "1.3.3",
   "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.m.jd.com"
+  },
   "description": "A version comparison tool based on semver specification",
   "repository": {
     "type": "git",
