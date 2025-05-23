@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.0
+
+### 🚀 Enhancements
+
+- 初始化项目 ([f2dc2b0](https://github.com/holyfata/compare-version/commit/f2dc2b0))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v0.0.5
 
 [compare changes](https://github.com/holyfata/compare-version/compare/v0.0.4...v0.0.5)
