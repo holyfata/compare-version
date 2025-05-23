@@ -1,11 +1,56 @@
 {
-  "name": "compare-version",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "1.1.17"
+  "name": "@holyfata/compare-version",
+  "private": false,
+  "author": "holyfata",
+  "keywords": [
+    "compare-version",
+    "semver",
+    "version-comparison"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
-  "peerDependencies": {
+  "version": "0.0.5",
+  "type": "module",
+  "description": "A version comparison tool based on semver specification",
+  "repository": "https://github.com/holyfata/compare-version",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "lint": "eslint . && prettier -c .",
+    "lint:fix": "automd && eslint . --fix && prettier -w .",
+    "prepack": "bun run build",
+    "release": "bun test && changelogen --release && bun publish && git push --follow-tags",
+    "test": "bun test && bun run test:types",
+    "test:types": "tsc --noEmit --skipLibCheck",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-node-polyfill": "1.3.0",
+    "@rslib/core": "0.6.8",
+    "@types/semver": "7.7.0",
+    "automd": "0.3.12",
+    "changelogen": "0.6.1",
+    "eslint": "9.27.0",
+    "eslint-config-unjs": "0.4.2",
+    "husky": "9.1.7",
+    "prettier": "3.5.3",
     "typescript": "5.8.3"
-  }
+  },
+  "dependencies": {
+    "semver": "7.7.2"
+  },
+  "packageManager": "bun@1.2.5"
 }
