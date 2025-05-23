@@ -1,7 +1,9 @@
 [submodule "semver"]
 	path = semver
+    branch = master
 	url = https://github.com/semver/semver.git
 
 [submodule "compare-versions"]
 	path = compare-versions
+    branch = main
 	url = https://github.com/omichelsen/compare-versions.git
